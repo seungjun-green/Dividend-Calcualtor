@@ -31,7 +31,7 @@ int main() {
     double dPerFrequency = 0;
     double investments = original;
     double dividend = 0;  //amount of dividend
-    int dFrequency = 0;  //Yearly, Quartely, Monthly
+    int dFrequency = 0;  //Yearly, Quarterly, Monthly
 
     
     if (strcmp("Y", dF) == 0) {
@@ -41,7 +41,7 @@ int main() {
         
     } else if (strcmp("Q", dF) == 0) {
         dFrequency = 4;
-        strcpy(str, "Quartely");
+        strcpy(str, "Quarterly");
         dPerFrequency = yearlyDYield / 400;
 
     } else  {
