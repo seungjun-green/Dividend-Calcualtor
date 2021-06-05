@@ -52,7 +52,7 @@ int main() {
     
     
     for(int i = 1; i <= (year * dFrequency); i++) {
-        dividend = investments * 0.011;
+        dividend = investments * dPerFrequency;
         investments += dividend;
         
         if ((i % dFrequency) == 0) {
