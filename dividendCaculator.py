@@ -1,8 +1,6 @@
 # importing the required module
 import matplotlib.pyplot as plt
 
-
-
 year = 5
 original = 300000
 dF = 'M'
