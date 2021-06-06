@@ -1,3 +1,8 @@
+# importing the required module
+import matplotlib.pyplot as plt
+
+
+
 year = 5
 original = 300000
 dF = 'M'
@@ -33,11 +38,19 @@ else:
     str = "Monthly"
     dPerFrequency = yearlyDYield / 1200
 
+# x axis values
+time = []
+# corresponding y axis values
+usd = [] #market value
 
 
-for x in range(1,year * dFrequency + 1):
+
+for x in range(1, year * dFrequency + 1):
     dividend = investments * dPerFrequency
     investments += dividend
+    usd.append(investments)
+    time.append(x * (12/dFrequency))
+
 
     if ((x % dFrequency) == 0):
         investments = investments * (1 + AnnualStockUP / 100)
@@ -49,3 +62,12 @@ print("Market Value: $%.2f | %s Dividnes: $%.2f " %(investments, str, investment
 
 
 
+plt.plot(time, usd)
+
+
+plt.xlabel('Time(Month)')
+plt.ylabel('Market Value($USD)')
+
+plt.title('Expected Growth')
+
+plt.show()
