@@ -7,7 +7,7 @@ Annual Dividend Yield, Expected Annual Share Price Appreciation, and Years Inves
 Then this program will prinout the the market valuen of user's dividend stock portfolio after X years,
 and what their (Yearly/Quarterly/Monthly) dividend will be.
 
-I uploaded 3 files(Swift, Python, C). All of them do same thing.
+I uploaded 4 files(Swift, Python, C, C++). All of them do same thing.
 
 Below is the screenshot of how this program actually work.
 
