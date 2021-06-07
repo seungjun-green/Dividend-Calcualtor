@@ -12,5 +12,6 @@ I uploaded 4 files(Swift, Python, C, C++). All of them do same thing. Currently 
 Below is the screenshot of how this program actually work.
 
 
-<img width="480" alt="Screen Shot 2021-06-07 at 12 21 32 AM" src="https://user-images.githubusercontent.com/60959924/120929994-51345180-c726-11eb-87e6-9f649973fbd4.png">
-<img width="434" alt="Screen Shot 2021-06-07 at 12 21 48 AM" src="https://user-images.githubusercontent.com/60959924/120929999-5abdb980-c726-11eb-84dc-433d5637a53e.png">
+<img width="429" alt="Screen Shot 2021-06-07 at 5 20 18 PM" src="https://user-images.githubusercontent.com/60959924/120983412-a323b880-c7b4-11eb-8474-09d00f867afa.png">
+
+<img width="468" alt="Screen Shot 2021-06-07 at 5 19 58 PM" src="https://user-images.githubusercontent.com/60959924/120983366-97d08d00-c7b4-11eb-82d7-9d6a7973b401.png">
